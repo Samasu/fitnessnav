@@ -3,7 +3,7 @@ import 'firebase/firestore'
 import 'firebase/auth'
 
 
-var firebaseConfig = {
+var config = {
     apiKey: "AIzaSyANIymtDWjHIx_XK29KTIzV-V2Tx9pjIiI",
     authDomain: "netninja-d125d.firebaseapp.com",
     databaseURL: "https://netninja-d125d.firebaseio.com",
@@ -13,7 +13,7 @@ var firebaseConfig = {
     appId: "1:890091264883:web:4ae8517756f8cf341c8306"
   };
   // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
+  firebase.initializeApp(config);
 
   firebase.firestore().settings({ timestampsInSnapshots: true })
 
