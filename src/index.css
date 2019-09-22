@@ -8,10 +8,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: url(/img/jonas-elia-x6HHgq2zDvI-unsplash.jpg) no-repeat;
+  background: url(/img/jonas-elia-x6HHgq2zDvI-unsplash.jpg);
   background-size: 100%;
-  background-position: bottom;
-  background-color:#95e;
+  
+
   min-height: 100%;
 }
 form{
